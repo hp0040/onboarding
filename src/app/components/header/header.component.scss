@@ -1,0 +1,39 @@
+.header {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background-color: #004165;
+    .links {
+        a {
+            color: #fff;
+            font: 11px arial;
+            &:hover {
+                text-decoration: none;
+            }
+            &.user {
+                font: 18px arial;
+                padding-left: 25px;
+                background: url('../assets/images/userIcon.png') 1px center no-repeat;
+                &:after {
+                    content: '';
+                    display: inline-block;
+                    width: 9px;
+                    height: 6px;
+                    margin-left: 6px;
+                    background: url(../assets/images/dwnArrow.png) 0px 0px no-repeat;
+                }
+            }
+            &.help {
+                border-right: 1px solid white;
+                display: inline-block;
+                padding-right: 5px;
+                margin: 0 7px;
+            }
+            &.powerbtn {
+                display: inline-block;
+                margin-left: 10px;
+                padding-left: 13px;
+                border-left: 1px solid white;
+            }
+        }
+    }
+}

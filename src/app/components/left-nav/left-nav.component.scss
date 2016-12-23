@@ -1,0 +1,29 @@
+.left-nav {
+    height: 100%;
+    background-color: #00a9e0;
+    ul.nav {
+        li {
+        	display: table;
+        	width: 100%;	        	
+            &.active a{
+                background-color: #636165;                
+            }
+            a {
+                display: table-cell;
+                padding: 10px 15px;
+                font: 12px Arial;
+                color: white;
+                text-decoration: none;
+                height: 60px;
+                vertical-align: middle;
+                &:hover {
+                    text-decoration: none;
+                }
+
+                img{
+                	margin-right: 10px;
+                }
+            }
+        }
+    }
+}
